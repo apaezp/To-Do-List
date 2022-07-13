@@ -239,7 +239,7 @@ section .done-count .number-done-count {
     }
 
     section .content-box .list-box span {
-        display: inline-flexbox;
+        
         width: 25px;
         height: 25px;
         background: #e74c3c;
