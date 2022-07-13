@@ -207,24 +207,24 @@ section .done-count .number-done-count {
 
 @media (max-width: 768px) {
     section .img-box {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        display: none;
+        
     }
 
     section .content-box {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 50%;
         z-index: 1;
+        margin-top: 0px;
     }
 
     section .content-box .form-box {
-        width: 100%;
+        width: 80%;
+        height: 60%;
         padding: 40px;
         background: rgb(255 255 255 / 0.9);
         margin: 50px;
@@ -232,8 +232,15 @@ section .done-count .number-done-count {
 
     section .content-box .form-box h3 {
         color: #607d86;
-        text-align: center;
-        margin: 30px 0 10px;
+        text-align: center;        
         font-weight: 500;
+    }
+
+    section .content-box .footer-box {
+        width: 80%;
+        height: 30%;
+        padding: 0px;
+        background: rgba(255, 255, 255, 0.9);
+        margin: 20px;
     }
 }
